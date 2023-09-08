@@ -2,7 +2,6 @@ import { Modal } from 'components/Modal/Modal';
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 
-// * Рефакторінг в Хуки
 export const ImageGalleryItem = ({ webformatURL, largeImageURL, tags }) => {
   const [showModal, setShowModal] = useState();
 
